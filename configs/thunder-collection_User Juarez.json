@@ -1,0 +1,100 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "User Juarez",
+    "dateExported": "2024-03-07T08:05:04.540Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a969887a-c21f-4b57-88ed-bd2a244eaaee",
+            "colId": "33eec4a8-d416-4f2d-a7cb-3ff64fe42a7a",
+            "containerId": "",
+            "name": "User post",
+            "url": "http://localhost:8080/storeApi/user",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-07T07:02:16.899Z",
+            "modified": "2024-03-07T07:27:57.752Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"king1\",\n  \"correo\": \"king1@gmail.com\",\n  \"password\": \"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "046181d9-9177-4199-a75b-a09e90a9e787",
+            "colId": "33eec4a8-d416-4f2d-a7cb-3ff64fe42a7a",
+            "containerId": "",
+            "name": "User Get",
+            "url": "http://localhost:8080/storeApi/user",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-07T07:27:42.412Z",
+            "modified": "2024-03-07T07:27:59.907Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "68ca91ec-7a12-4037-9b09-bf6e7cb7d639",
+            "colId": "33eec4a8-d416-4f2d-a7cb-3ff64fe42a7a",
+            "containerId": "",
+            "name": "User Get By Id",
+            "url": "http://localhost:8080/storeApi/user/65e96c48333423306aceb148",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-03-07T07:29:44.015Z",
+            "modified": "2024-03-07T07:29:57.051Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e1f79a44-0b47-4f09-b0d0-3783ef187058",
+            "colId": "33eec4a8-d416-4f2d-a7cb-3ff64fe42a7a",
+            "containerId": "",
+            "name": "User put",
+            "url": "http://localhost:8080/storeApi/user/65e96c48333423306aceb148",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-03-07T07:30:10.243Z",
+            "modified": "2024-03-07T08:02:42.396Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU5NmM0ODMzMzQyMzMwNmFjZWIxNDgiLCJpYXQiOjE3MDk3OTg1NDgsImV4cCI6MTcwOTgwNTc0OH0.X1tnDVx2yeN6xe-j3M_xsunZjzmOiSq8T5xKs9MZds4"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"King\"\n}",
+                "form": []
+            },
+            "reqType": "put",
+            "tests": []
+        },
+        {
+            "_id": "521b25e1-5671-4795-aeae-15ad776344fa",
+            "colId": "33eec4a8-d416-4f2d-a7cb-3ff64fe42a7a",
+            "containerId": "",
+            "name": "User Delte",
+            "url": "http://localhost:8080/storeApi/user/65e96c48333423306aceb148",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-03-07T08:04:37.865Z",
+            "modified": "2024-03-07T08:04:55.301Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU5NmM0ODMzMzQyMzMwNmFjZWIxNDgiLCJpYXQiOjE3MDk3OTg1NDgsImV4cCI6MTcwOTgwNTc0OH0.X1tnDVx2yeN6xe-j3M_xsunZjzmOiSq8T5xKs9MZds4"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
